@@ -3,7 +3,7 @@ Neural networks to decode movements from EEG data. Final Project for C147 at UCL
 
 Designed to be used in Google Colab with a GPU. Uses tensorflow-keras
 
-Applied neural network architectures to decode imagined movements using labeled EEG data from http://www.bbci.de/competition/iv/
+Uses labeled EEG data from http://www.bbci.de/competition/iv/
 
 Compared convolutional neural network (CNN), recurrent neural network (RNN), and hybrid convolutional recurrent networks (CRNNs).
 
