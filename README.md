@@ -24,4 +24,4 @@ Clone the repository with
 git clone https://github.com/kkapre/Deep-Learning-EEG.git
 ```
 
-Then run DL_EEG_Decoding.ipynb, changing any code involving Google Drive. 
+Then run `DL_EEG_Decoding.ipynb`, changing any code involving Google Drive. 
