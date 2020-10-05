@@ -1,5 +1,5 @@
 # Neural Networks for EEG Decoding
-Decode imagined movement classes from EEG data using various neural network architectures. Based off Final Project for C147 at UCLA. Results are further discussed in `NN_EEG_Paper.pdf`
+Decode imagined movement classes from EEG data using various neural network architectures. Based off Final Project for C147 at UCLA. Further discussion in `NN_EEG_Paper.pdf`
 
 Uses labeled EEG data from http://www.bbci.de/competition/iv/. Data is 4s of 22 channel EEG recordings from 9 total subjects who are imagining 1 of 4 movements
 
