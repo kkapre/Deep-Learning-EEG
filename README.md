@@ -10,7 +10,9 @@ Compared convolutional neural network (CNN), recurrent neural network (RNN), and
 Achieved best performance with a CNN adapted to EEG data. This CNN was designed with temporal filters to allow it to learn the key information contained in the EEG frequency power spectrum and spatial filters to combine data from multiple electrodes.  This network can decode the chosen movement with approximately 70% accuracy using only 1.2 seconds of data, suggesting possibility for brain-computer interface applications with improvements. 
 
 ## Usage
-Before cloning, Git LFS must be downloaded and installed. On Windows see https://git-lfs.github.com/
+The notebook is designed to be run in Google Colab which can be done at https://colab.research.google.com/github/kkapre/Deep-Learning-EEG/blob/main/DL_EEG_Decoding.ipynb. Running the cells will request Google Drive access and will create a new folder where this repository will be cloned. 
+
+To run locally Git LFS must be downloaded and installed before cloning. On Windows see https://git-lfs.github.com/
 
 On Linux
 
@@ -19,9 +21,9 @@ sudo apt-get install git-lfs
 git lfs install
 ```
 
-Clone repository with 
+Clone the repository with 
 ```
 git clone https://github.com/kkapre/Deep-Learning-EEG.git
 ```
 
-Then run DL_EEG_Decoding.ipynb
+Then run DL_EEG_Decoding.ipynb, changing any code involving Google Drive. 
