@@ -10,7 +10,7 @@ Compared convolutional neural network (CNN), recurrent neural network (RNN), and
 Achieved best performance with a CNN adapted to EEG data. CNN was designed with temporal filters to allow it to learn the key information contained in the EEG frequency power spectrum and spatial filters to combine data from multiple electrodes.  This network can decode the chosen movement with approximately 70% accuracy using only 1.2 seconds of data, suggesting possibility for brain-computer interface applications with improvements. 
 
 ## Usage
-Before cloning, Git LFS must be downloaded and installed. See https://git-lfs.github.com/
+Before cloning, Git LFS must be downloaded and installed. On Windows see https://git-lfs.github.com/
 
 This can also be done on Linux with
 
