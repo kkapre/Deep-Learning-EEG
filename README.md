@@ -12,7 +12,7 @@ Achieved best performance with a CNN adapted to EEG data. CNN was designed with 
 ## Usage
 Before cloning, Git LFS must be downloaded and installed. On Windows see https://git-lfs.github.com/
 
-This can also be done on Linux with
+On Linux
 
 ```
 sudo apt-get install git-lfs
