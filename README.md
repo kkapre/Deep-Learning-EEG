@@ -1,5 +1,5 @@
 # Deep-Learning-EEG
-Neural networks to decode movements from EEG data. Based off Final Project for C147 at UCLA.
+Neural networks to decode movements from EEG data. Based off Final Project for C147 at UCLA. Results are further discussed in `DL_EEG_Paper.pdf`
 
 Uses labeled EEG data from http://www.bbci.de/competition/iv/. Data is 4s of 22 channel EEG recordings from 9 total subjects who are imagining 1 of 4 movements
 
