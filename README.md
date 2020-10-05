@@ -1,5 +1,5 @@
 # Deep-Learning-EEG
-Neural networks to decode movements from EEG data. Final Project for C147 at UCLA.
+Neural networks to decode movements from EEG data. Based off Final Project for C147 at UCLA.
 
 Designed to be used in Google Colab with a GPU. Uses tensorflow-keras
 
