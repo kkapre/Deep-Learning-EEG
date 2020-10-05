@@ -16,5 +16,5 @@ See: https://git-lfs.github.com/
 
 Can be done on Linux with
 
-'sudo apt-get install git-lfs'
-'git lfs install'
+'''sudo apt-get install git-lfs
+'git lfs install'''
