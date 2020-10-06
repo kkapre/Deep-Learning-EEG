@@ -25,3 +25,10 @@ git clone https://github.com/kkapre/Neural-Networks-EEG-Decoding.git
 ```
 
 Then run `NN_EEG_Decoding.ipynb`, changing any code involving Google Drive. 
+
+## References
+[1] R. T. Schirrmeister, J. T. Springenberg, L. D. J. Fiederer,
+M. Glasstetter, K. Eggensperger, M. Tangermann, F. Hutter,
+W. Burgard, and T. Ball. Deep learning with convolutional
+neural networks for EEG decoding and visualization. Human
+Brain Mapping, 38(11):5391–5420, Aug. 2017.
