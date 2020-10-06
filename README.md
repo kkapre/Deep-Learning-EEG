@@ -12,9 +12,9 @@ The notebook is designed to be run with a GPU on Google Colab which can be done 
 
 To run locally, Git-LFS must be downloaded and installed before cloning. 
 
-On Windows see https://git-lfs.github.com/
+For installation see https://docs.github.com/en/free-pro-team@latest/github/managing-large-files/installing-git-large-file-storage
 
-On Linux
+On Linux you can also do
 
 ```
 sudo apt-get install git-lfs
