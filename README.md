@@ -8,11 +8,11 @@ Compared convolutional neural network (CNN), recurrent neural network (RNN), and
 Achieved best performance with a CNN adapted to EEG data (EEG_CNN in `eeg_models.py`). This CNN was designed with temporal filters to allow it to learn the key information contained in the EEG frequency power spectrum and spatial filters to combine data from multiple electrodes.  This network can decode the chosen movement with approximately 70% accuracy using only 1.2 seconds of data, suggesting possibility for brain-computer interface applications with improvements. 
 
 ## Usage
-Run in Cloud:\
+Run in Cloud:
 
 The notebook is designed to be run with a GPU on Google Colab which can be done simply at https://colab.research.google.com/github/kkapre/Neural-Networks-EEG-Decoding/blob/main/NN_EEG_Decoding.ipynb. Running the cells will request Google Drive access and will create a new folder in the drive where this repository will be cloned. 
 
-Run Locally:\
+Run Locally:
 
 Git-LFS must be downloaded and installed before cloning. 
 
