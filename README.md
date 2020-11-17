@@ -9,9 +9,11 @@ Achieved best performance with a CNN adapted to EEG data (EEG_CNN in `eeg_models
 
 ## Usage
 Run in Cloud:\
+
 The notebook is designed to be run with a GPU on Google Colab which can be done simply at https://colab.research.google.com/github/kkapre/Neural-Networks-EEG-Decoding/blob/main/NN_EEG_Decoding.ipynb. Running the cells will request Google Drive access and will create a new folder in the drive where this repository will be cloned. 
 
 Run Locally:\
+
 Git-LFS must be downloaded and installed before cloning. 
 
 For installation instructions see https://docs.github.com/en/free-pro-team@latest/github/managing-large-files/installing-git-large-file-storage
