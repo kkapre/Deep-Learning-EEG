@@ -44,7 +44,7 @@ def Image_CNN(num_classes=4,input_dim=(1000,22),num_filter=[50,100],dropout=0.5,
     return model
   
 
-def CRNN(num_classes=4,input_dim=(1000,22),num_filter=100,dropout=0.5,filter_size=22,reg=0.001):
+def CRNN(num_classes=4,input_dim=(1000,22),units=100,num_filter=100,dropout=0.5,filter_size=22,reg=0.001):
     inputs = Input(shape=input_dim)
     rshape= Reshape(input_dim+(1,))(inputs)
     block1 = Conv2D(num_filter,(1,filter_size),activation='relu',kernel_regularizer=l2(reg))(rshape)
@@ -55,7 +55,7 @@ def CRNN(num_classes=4,input_dim=(1000,22),num_filter=100,dropout=0.5,filter_siz
     squeezed = tuple([x for x in block1.shape.as_list() if x != 1 and x is not None])
     rshape2 = Reshape(squeezed) (block1)
 
-    block2 = LSTM(units=100,return_sequences = True,dropout=dropout,kernel_regularizer=l2(reg))(rshape2)
+    block2 = LSTM(units=units,return_sequences = True,dropout=dropout,kernel_regularizer=l2(reg))(rshape2)
 
 
     flat1 = Flatten()(block2)
